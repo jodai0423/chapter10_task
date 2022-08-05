@@ -62,3 +62,21 @@ footer {
   height: 50px;
   background-color: #aaaaaa;
 }
+@media screen and (max-width: 768px) {
+  main {
+    width: 100%;
+  }
+  .box-list {
+    justify-content: center;
+  }
+  .box-item {
+    width: 90%;
+    margin: 0 0 20px 0;
+  }
+  .box-item:last-child {
+    margin: 0;
+  }
+  .img {
+    width: 100%;
+  }
+}
